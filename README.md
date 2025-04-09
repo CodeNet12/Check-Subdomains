@@ -13,9 +13,13 @@ A simple Python tool to validate URLs and check for sub-URLs (subpaths) using a 
 
 - Python 3.x
 - `requests` library
+- `common.txt` file , source : `https://github.com/danielmiessler/SecLists`
 
 Install requirements using:
 
 ```bash
+git clone https://github.com/CodeNet12/Check-Subdomains.git
+cd Check-Subdomains
 pip install -r requirements.txt
+python main.py
 # Check-Subdomains
